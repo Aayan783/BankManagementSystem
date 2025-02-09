@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class PinChange extends JFrame implements ActionListener {
-
+//password
     JPasswordField pin, repin;
     JButton change, back;
     String pinnumber;
