@@ -11,7 +11,7 @@ public class Transactions extends JFrame implements ActionListener{
     Transactions(String pinnumber) {
         this.pinnumber = pinnumber;
         setLayout(null);
-        
+        // this is the transactions page
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/atm.jpg"));
         Image i2 = i1.getImage().getScaledInstance(900, 900, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
