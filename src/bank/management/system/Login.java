@@ -6,7 +6,7 @@ import java.awt.event.*;
 import java.sql.*;
 
 public class Login extends JFrame implements ActionListener {
-
+//this is the login page
     JButton login, signup, clear;
 
     JTextField cardTextField;
